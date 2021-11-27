@@ -16,7 +16,7 @@ message["To"] = receiver_email
 text = """\
 Hi,
 How are you?
-I am Mutegetsi Prince I sent this email usin a python script"""
+I am Mutegetsi Prince I sent this email using a python script"""
 html = """\
 <html>
   <body>
@@ -27,10 +27,12 @@ html = """\
     <img src="https://res.cloudinary.com/blocker/image/upload/v1637758002/page_y3lmsb.png" width="600" height="400"/> <br>    
     </div>
     <div style="display:flex;">    
-    <span>Checkout more about me here<span/> <a href="http://www.pmutegetsi.me">Mutegetsi Prince</a>
+         <span>Checkout more about me here<span/> <a href="http://www.pmutegetsi.me">Mutegetsi Prince</a>
+    </div>     
+    <div>
     <span>This is a link to the script: <span/> <a href="https://github.com/chainerprince/emailsender.git">Script Codes</a>
-     
-    </div>        
+    </div>
+       
   </body>
 </html>
 """
